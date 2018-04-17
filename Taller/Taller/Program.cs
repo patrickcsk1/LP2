@@ -8,6 +8,10 @@ namespace Taller
 {
     static class Program
     {
+        private static void ImprimirDatos()
+        {
+            Console.WriteLine("Codigo de prueba de darks");
+        }
         /// <summary>
         /// Punto de entrada principal para la aplicación.
         /// </summary>
@@ -17,6 +21,7 @@ namespace Taller
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
+            ImprimirDatos();
         }
     }
 }
